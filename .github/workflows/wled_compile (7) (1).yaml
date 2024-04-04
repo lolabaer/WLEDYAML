@@ -37,7 +37,7 @@ jobs:
         echo '  https://github.com/alwynallan/DHT_nonblocking' >>platformio.ini
         echo '  BME280@~3.0.0' >>platformio.ini
         echo '  Wire' >>platformio.ini
-        echo '  claws/BH1750 @^1.2.0
+        echo '  claws/BH1750 @^1.2.0' >>platformio.ini
 
         
         pio run -e custom_build || pio run -e custom_build
